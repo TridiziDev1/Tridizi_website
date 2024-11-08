@@ -13,7 +13,7 @@ import Mobileuiuxdesign from '../../assets/images//mobileuiux.png'
 import MarqueeScroll from '../../Components/MarqueeScroll/MarqueeScroll'
 import Footer from '../../Components/Footer/Footer'
 import WhatsAppLogo from '../../Components/WhatsAppLogo/WhatsAppLogo'
-import bgImage from  "../../assets/images/branding-BG.png"
+import bgImage from  "../../assets/images/branding-bg.png"
 
 export default function Designing({top}) {
   const navigate = useNavigate()
