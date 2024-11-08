@@ -1,0 +1,55 @@
+ /* about-images */
+ .branding1 {
+    position: absolute;
+    margin-top: -170px;
+    margin-left: 250px;
+    width: 400px;
+    height: 480px;
+    flex-shrink: 1;
+    background: url(../../assets/images/branding-2.png), lightgray 50% / cover no-repeat; 
+    background-size: cover;
+    mix-blend-mode: luminosity;
+  }
+  
+  .branding2 {
+    position: relative;
+    margin-left: 70px;
+    margin-top: -6px;
+    width: 290px;
+    height: 316px;
+    flex-shrink: 1;
+    background: url(../../assets/images/branding-1.png), lightgray 50% / cover no-repeat; 
+    background-size: cover;
+    mix-blend-mode: luminosity;
+  }
+  
+  .branding3 {
+    position: relative;
+    width: 170px;
+    left: 85px;
+    flex-shrink: 1;
+  }
+
+
+  @media screen and (max-width: 576px) {
+  .branding3 img {
+    width: auto;
+    height: 70px;
+    margin-top: -139px;
+    margin-left: -31px;
+  }
+
+  .branding1{
+    width: 202px;
+    height: 247px;
+    margin-top: -115px;
+    margin-left: 120px;
+  }
+
+  .branding2 {
+    width: 137px;
+    height: 175px;
+    margin-left: 50px;
+    margin-top: -43px;
+  }
+}

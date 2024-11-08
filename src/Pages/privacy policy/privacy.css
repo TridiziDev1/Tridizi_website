@@ -1,0 +1,16 @@
+.privacy h1 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+  text-align: center;
+  color: #F5900D;
+}
+
+.privacy h5 {
+  color: white;
+}
+
+.privacy p {
+  padding: 2px 20px;
+  color: #585858;
+}

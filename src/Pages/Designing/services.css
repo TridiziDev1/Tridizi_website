@@ -1,0 +1,226 @@
+/* button {
+    margin-top: 0px !important;
+  } */
+  
+ 
+  .brand-1 .container .row {
+    justify-content: space-evenly !important;
+  }
+  .brand-box {
+    border: 2px solid gray;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 1px 1px 20px 1px gray;
+    border-radius: 10px;
+  }
+  .brand-1 img {
+    width: 164px;
+    height: 170px;
+    transition: 0.6s;
+  }
+  .brand-1 h1 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 800;
+    margin-top: 45px;
+    width: 600px;
+  }
+  .brand-1 h1:hover {
+    cursor: pointer;
+  }
+  .brand-1 h6 {
+    color: #f5900d;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    transition: 0.6s;
+  }
+  /* .infom {
+    margin-left: 105px;
+  } */
+  .brand-1 p {
+    color: #6e6e6e;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: justify;
+  }
+  .brand-box:hover img {
+    width: 190px;
+    height: 170px;
+  }
+  .brand-box:hover {
+    box-shadow: 3px 3px 14px 3px #f5900d;
+    border: 2px solid #f5900d;
+    cursor: pointer;
+  }
+  .brand-box:hover h6 {
+    color: #fff;
+  }
+  .reverse {
+    margin-left: 5px;
+    margin-right: 105px;
+  }
+  @media screen and (max-width: 992px) {
+    .brand-1 {
+      margin: 40px 0px;
+    }
+    .reverse {
+      margin-left: 0px;
+      margin-right: 50px;
+      flex-direction: column-reverse;
+    }
+    .dis {
+      margin: 19%;
+    }
+    .brand-1 h1 {
+      font-size: 30px;
+    }
+    .brand-1 p {
+      font-size: 15px;
+    }
+    .brand-1 img {
+      width: 150px;
+      height: 150px;
+    }
+    .infom {
+      margin-left: 50px;
+    }
+  }
+  @media screen and (max-width: 576px) {
+    .infom {
+      margin-left: 2px;
+    }
+    .brand-1 h1 {
+      font-size: 20px;
+    }
+    .brand-1 p {
+      font-size: 13px;
+    }
+    .brand-1 img {
+      width: 110px;
+      height: 110px;
+    }
+  }
+  .dropdown-menu.show {
+    display: block;
+    color: white !important;
+    background-color: rgba(0, 0, 0, 0.54);
+    backdrop-filter: blur(2px);
+  }
+  
+  .Custom-Crm h2 {
+    color: #f5900d;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .crm-boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+  }
+  
+  .crm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    border: 2px solid gray;
+    box-shadow: 1px 1px 20px -3px gray;
+    width: 300px;
+    height: 250px;
+    border-radius: 15px;
+    transform: scale(0.92);
+    transition: 0.3s;
+  }
+  .crm:hover {
+    border: 2px solid #f5900d;
+    box-shadow: 1px 1px 30px -3px #f5900d;
+    transform: scale(1);
+  }
+  .crm h4 {
+    font-size: 17px;
+    color: #6e6e6e;
+  }
+  
+  .crm img {
+    width: 75px !important;
+  }
+  .Custom-Crm span {
+    color: white;
+  }
+  
+  .owl-item {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  @media screen and (max-width: 525px) {
+    .Custom-Crm h2 {
+      font-size: 25px;
+      margin-bottom: 20px;
+    }
+  }
+
+
+
+  .designingimg1 {
+    position: absolute;
+    margin-top: -170px;
+    margin-left: 250px;
+    width: 400px;
+    height: 480px;
+    flex-shrink: 1;
+    background: url(../../assets/images/designingimg1.jpeg), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    mix-blend-mode: luminosity;
+  }
+  
+  .designingimg2 {
+    position: relative;
+    margin-left: 70px;
+    margin-top: -6px;
+    width: 290px;
+    height: 316px;
+    flex-shrink: 1;
+    background: url(../../assets/images/designingimg2.jpeg), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    mix-blend-mode: luminosity;
+  }
+  
+  .designingimg3{
+    position: relative;
+    width: 170px;
+    left: 85px;
+    flex-shrink: 1;
+  }
+
+
+  @media screen and (max-width: 576px) {
+    .designingimg3 img {
+      width: auto;
+      height: 70px;
+      margin-top: -139px;
+      margin-left: -31px;
+    }
+  
+    .designingimg1{
+      width: 202px;
+      height: 247px;
+      margin-top: -115px;
+      margin-left: 120px;
+    }
+  
+    .designingimg2 {
+      width: 137px;
+      height: 175px;
+      margin-left: 50px;
+      margin-top: -43px;
+    }
+  }

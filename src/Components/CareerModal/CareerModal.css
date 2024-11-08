@@ -1,0 +1,55 @@
+.modal-content {
+  border-radius: 10px;
+  background-color: black;
+}
+
+.modal-header {
+  background-color: black;
+  color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.modal-title {
+  font-weight: bold;
+  color: orange;
+}
+
+/* Modal body styling */
+.modal-body {
+  background-color: black;
+  padding: 20px;
+}
+
+.form-control {
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+}
+
+textarea.form-control {
+  resize: vertical;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  border-top: none;
+}
+
+.btn-primary {
+  background-color: orange;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+.modal-footer{
+background-color: black;
+}
+@media (max-width: 768px) {
+  .modal-dialog {
+    margin: 10px;
+  }
+}

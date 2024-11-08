@@ -1,0 +1,126 @@
+.bpImg01{
+    width: 200px;
+    position: absolute;
+    left: 550px;
+    top: 260px;
+}
+
+.webDesign_minScreen{
+    display: none;
+}
+@media screen and (max-width:575px) {
+.webDesign_minScreen{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.brandDetails_minScreen {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  /* 1 */
+  .flexItem_1 {
+    width: fit-content;
+    display: flex;
+    padding: 0px 30px;
+    gap: -2px;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+  .flexItem_1 p {
+    font-size: 10px;
+    font-size: 12px;
+    line-height: 29px ;
+    text-align: start;
+  }
+  /* 2 */
+  .flexItem_2 {
+    width: fit-content;
+
+    display: flex;
+    padding: 0px 30px;
+    gap: -2px;
+    align-items: center;
+    flex-direction: row;
+  }
+  .flexItem_2 p {
+    font-size: 10px;
+    font-size: 12px;
+    line-height: 29px ;
+    text-align: start;
+  }
+  /* 3 */
+  .flexItem_3 {
+    width: fit-content;
+    display: flex;
+    padding: 0px 30px;
+    gap: -2px;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+  .flexItem_3 p {
+    font-size: 10px;
+    font-size: 12px;
+    line-height: 29px ;
+    text-align: start;
+  }
+
+  /* 4 */
+  .flexItem_4 {
+    width: fit-content;
+    display: flex;
+    padding: 0px 30px;
+    gap: -2px;
+    align-items: center;
+    flex-direction: row;
+  }
+  .flexItem_4 p {
+    font-size: 10px;
+   font-size: 12px;
+    line-height: 29px ;
+    text-align: start;
+  }
+  /* 5 */
+  .flexItem_5 {
+    width: fit-content;
+    display: flex;
+    padding: 0px 30px;
+    gap: -2px;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+  .flexItem_5 p {
+    font-size: 10px;
+    font-size: 12px;
+    line-height: 29px ;
+    text-align: start;
+  }
+
+  .img_tag {
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 20px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .img_tag p {
+    /* padding: 0 10px; */
+    width: 15vw;
+    text-align: center;
+    /* border: 1px solid red; */
+  }
+
+  .img_tag012 p{
+      text-align: center !important;
+      margin-right: 10px ;
+
+  }
+
+
+    
+}

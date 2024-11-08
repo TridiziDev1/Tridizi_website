@@ -1,0 +1,190 @@
+.appmarketing_add_details{
+    height: 750px;
+    display: flex;
+    justify-content: center;
+}
+
+.add_details{
+    width: 1300px;
+    height:100%;
+    position: relative;
+}
+.appmarketing_items1{
+    width: 400px;
+    position: absolute;
+    left: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.appmarketing_items1 .img_tag{
+    background-color: white;
+    border-radius: 50%;
+    padding: 20px;
+    color: black;
+    display: flex;justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    flex-direction: column;
+}
+.appmarketing_items2{
+    width: 400px;
+    position: absolute;
+    left:50px;
+    top: 240px;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+}
+.appmarketing_items2 .img_tag{
+    background-color: white;
+    border-radius: 50%;
+    padding: 20px;
+    color: black;
+    display: flex;justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100px;
+    height: 100px;
+}
+.appmarketing_items3{
+    width: 400px;
+    position: absolute;
+    left:850px;
+    top: 230px;gap: 5px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.appmarketing_items3 .img_tag{
+    background-color: white;
+    border-radius: 50%;
+    padding: 35px;
+    color: black;
+    display: flex;justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100px;
+    height: 100px;
+}
+.appmarketing_items4{
+    width: 300px;
+    position: absolute;
+    left:330px;
+    top: 500px;gap: 5px;
+    text-align: center  ;
+    
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.appmarketing_items4 .img_tag{
+    background-color: white;
+    border-radius: 50%;
+    padding: 35px;
+    color: black;
+    display: flex;justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100px;
+    height: 100px;
+}
+.appmarketing_items5{
+    width: 300px;
+    text-align: center  ;
+    position: absolute;
+    left:660px;
+    top: 500px;gap: 5px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.appmarketing_items5 .img_tag{
+    background-color: white;
+    border-radius: 50%;
+    padding: 35px;
+    color: black;
+    display: flex;justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100px;
+    height: 100px;
+}
+
+.img_tag img{
+    width: 40px;
+
+}
+.Img_alt_details{
+    font-size: 10px;
+    font-weight: 800;
+}
+
+.li-1{
+    position: absolute;
+    font-size: 25px;
+    bottom: 180px;
+    left: 490px;
+    z-index: -1;
+    color: #f5900d;
+}
+.li-2{
+    position: absolute;
+    font-size: 25px;
+    top: 180px;
+    left: 630px;
+    z-index: -1;
+    color: #f5900d;
+    transform: rotate(35deg);
+}
+.li-3{
+    position: absolute;
+    font-size: 25px;
+    top: 190px;
+    left: 370px;
+    z-index: -1;
+    color: #f5900d;
+    transform: rotate(-35deg);
+}
+.li-4{
+    position: absolute;
+    font-size: 25px;
+    top: 400px;
+    left: 300px;
+    z-index: -1;
+    color: #f5900d;
+    transform: rotate(70deg);
+}
+.li-5{
+    position: absolute;
+    font-size: 25px;
+    color: #f5900d;
+    top: 400px;
+    left: 720px;
+    z-index: -1;
+    transform: rotate(-70deg);
+}
+
+.bpImg1{
+    width: 250px;
+    position: absolute;
+    left: 530px;
+    top: 230px;
+}
+
+
+@media screen and (max-width:500px) {
+    .hero1 h1,
+  p {
+    text-align: center;
+    font-size: 8vw;
+    line-height: 40px;
+    letter-spacing: 0.5px !important;
+  }
+  .offer{
+    margin-top: 90vw !important;
+  }
+    
+}
