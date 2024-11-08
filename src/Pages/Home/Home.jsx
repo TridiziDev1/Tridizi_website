@@ -9,9 +9,9 @@ import professionalTeam from "../../assets/images/cardimage-3.png"
 import badgeImg2 from "../../assets/images/bg badge-3.png"
 import BrandingAgency from "../../assets/images/chair.png"
 import TriDiziTeam from "../../assets/images/design.png"
-import GCGCorporation from "../../assets/company-logos/GCG.png"
+import GCGCorporation from "../../assets/company-logos/gcg.png"
 import goodtobuy from "../../assets/company-logos/logo-goodtobuy (1).png"
-import entersoft from "../../assets/company-logos/entersoftLogo.png"
+import entersoft from "../../assets/company-logos/entersoftlogo.png"
 import SideBar from '../../Components/Sidebar/SideBar';
 import MarqueeScroll from '../../Components/MarqueeScroll/MarqueeScroll';
 import WhatsAppLogo from '../../Components/WhatsAppLogo/WhatsAppLogo';
