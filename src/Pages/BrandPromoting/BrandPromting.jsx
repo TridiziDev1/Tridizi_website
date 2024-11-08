@@ -14,7 +14,7 @@ import aquirelead3 from "../../assets/images/aquirelead-3.jpg";
 import aquirelead4 from "../../assets/images/aquirelead-4.jpg";
 import goodtobuy1 from "../../assets/images/goodtobuy-1.jpg";
 import vtalent2 from "../../assets/images/vtalent-2.jpg";
-import vtalent1 from "../../assets/images/Vtalent-1.jpg";
+import vtalent1 from "../../assets/images/vtalent-1.jpg";
 import fiftyfifty1 from "../../assets/images/50fifty-1.jpg";
 import hiring from "../../assets/images/gtb hiring.png";
 
