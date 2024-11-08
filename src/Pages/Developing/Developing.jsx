@@ -12,7 +12,7 @@ import Protofoliadevimg from "../../assets/images/protofoliadev.png";
 import MarqueeScroll from "../../Components/MarqueeScroll/MarqueeScroll";
 import WhatsAppLogo from "../../Components/WhatsAppLogo/WhatsAppLogo";
 import Footer from "../../Components/Footer/Footer";
-import bgImage from "../../assets/images/branding-BG.png";
+import bgImage from "../../assets/images/branding-bg.png";
 import Slider from "react-slick";
 import slider1 from "../../assets/images/bpms.png";
 import slider2 from "../../assets/images/rems.png";
