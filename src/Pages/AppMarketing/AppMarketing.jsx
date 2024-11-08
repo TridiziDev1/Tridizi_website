@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../../Components/Navbar/Navbar";
 import SideBar from "../../Components/Sidebar/SideBar";
 import bgImage from "../../assets/images/branding-bg.png";
-import campaigns from "../../assets/images/Executing the campaigns.png";
+import campaigns from "../../assets/images/executing the campaigns.png";
 import statergies from "../../assets/images/statergies.png";
 import businessrequirements from "../../assets/images/business requirements.png";
 import achieve from "../../assets/images/achieve.png";
