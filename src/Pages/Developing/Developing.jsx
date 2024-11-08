@@ -4,7 +4,7 @@ import ThirdPartyScripts from "../../Components/ThirdPartyScript/ThirdPartyScrip
 import Navbar from "../../Components/Navbar/Navbar";
 import SideBar from "../../Components/Sidebar/SideBar";
 import "./developing.css";
-import Develop from "../../assets/images/About Image3.png";
+import Develop from "../../assets/images/about image3.png";
 import Webdevimg from "../../assets/images/webdev.png";
 import Webappdevimg from "../../assets/images/webappdev.png";
 import Wordpressdevimg from "../../assets/images/wordpressdev.png";
@@ -14,12 +14,12 @@ import WhatsAppLogo from "../../Components/WhatsAppLogo/WhatsAppLogo";
 import Footer from "../../Components/Footer/Footer";
 import bgImage from "../../assets/images/branding-BG.png";
 import Slider from "react-slick";
-import slider1 from "../../assets/images/BPMS.png";
-import slider2 from "../../assets/images/REMS.png";
-import slider3 from "../../assets/images/LMS.png";
-import slider4 from "../../assets/images/HRMS.png";
-import slider5 from "../../assets/images/PMS.png";
-import slider6 from "../../assets/images/RMS.png";
+import slider1 from "../../assets/images/bpms.png";
+import slider2 from "../../assets/images/rems.png";
+import slider3 from "../../assets/images/lms.png";
+import slider4 from "../../assets/images/hrms.png";
+import slider5 from "../../assets/images/pms.png";
+import slider6 from "../../assets/images/rms.png";
 
 export default function Developing({top}) {
   const navigate = useNavigate()
