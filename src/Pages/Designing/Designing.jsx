@@ -4,7 +4,7 @@ import ThirdPartyScripts from '../../Components/ThirdPartyScript/ThirdPartyScrip
 import Navbar from '../../Components/Navbar/Navbar'
 import SideBar from '../../Components/Sidebar/SideBar'
 import './services.css'
-import Design from '../../assets/images/About Image3.png'
+import Design from '../../assets/images/about image3.png'
 import Graphicdesign from '../../assets/images/graphicdesign.png'
 import Appdesign from '../../assets/images/app-designing.png'
 import Websiteuiuxdesign from '../../assets/images/websiteuiux.png'
