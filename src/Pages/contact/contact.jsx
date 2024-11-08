@@ -4,7 +4,7 @@ import Navbar from "../../Components/Navbar/Navbar";
 import SideBar from "../../Components/Sidebar/SideBar";
 import WhatsAppLogo from "../../Components/WhatsAppLogo/WhatsAppLogo";
 import "./contacts.css"
-import branding1 from "../../assets/images/About Image3.png"
+import branding1 from "../../assets/images/about image3.png"
 import MarqueeScroll from "../../Components/MarqueeScroll/MarqueeScroll";
 import Footer from "../../Components/Footer/Footer";
 import map from "../../assets/images/map.png"
