@@ -24,7 +24,7 @@ import tick from "../../assets/images/tick.png";
 import servimg from "../../assets/images/servimg.jpeg";
 import Footer from "../../Components/Footer/Footer";
 import ClientImages from "../../Components/ClientsImages/ClientImages";
-import "./webdesign.css";
+import "./Webdesign.css";
 import ThirdPartyScripts from "../../Components/ThirdPartyScript/ThirdPartyScripts";
 import Rating from "../../Components/Rating/Rating";
 
