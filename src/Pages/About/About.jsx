@@ -4,7 +4,7 @@ import "./About.css"
 import ThirdPartyScripts from '../../Components/ThirdPartyScript/ThirdPartyScripts'
 import Navbar from '../../Components/Navbar/Navbar'
 import SideBar from '../../Components/Sidebar/SideBar'
-import webDesign from "../../assets/images/About Image3.png"
+import webDesign from "../../assets/images/about image3.png"
 import aboutImage from "../../assets/images/hero image.png"
 import slide1 from "../../assets/images/star.png"
 import slide2 from "../../assets/images/light-bulb.png"

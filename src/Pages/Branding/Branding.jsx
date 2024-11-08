@@ -6,7 +6,7 @@ import WhatsAppLogo from "../../Components/WhatsAppLogo/WhatsAppLogo";
 import "../Designing/services.css"
 import { useNavigate } from "react-router-dom";
 import "./branding.css"
-import branding1 from "../../assets/images/About Image3.png"
+import branding1 from "../../assets/images/about image3.png"
 import br1 from "../../assets/images/br-1.png"
 import br2 from "../../assets/images/app-marketing.png"
 import br3 from "../../assets/images/event-marketing.png"

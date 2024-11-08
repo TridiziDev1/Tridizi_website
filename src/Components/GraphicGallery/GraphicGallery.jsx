@@ -1,37 +1,37 @@
 import React from 'react'
 
 import img1 from "../../assets/images/50fifty-1.jpg";
-import img2 from '../../assets/images/GD-gllryposter1.png';
-import img3 from '../../assets/images/Vtalent-1.jpg';
-import img4 from '../../assets/images/GD-bannergoodtobuy.jpg';
-import img5 from '../../assets/images/Aquirelead-3.jpg';
+import img2 from '../../assets/images/gd-gllryposter1.png';
+import img3 from '../../assets/images/vtalent-1.jpg';
+import img4 from '../../assets/images/gd-bannergoodtobuy.jpg';
+import img5 from '../../assets/images/aquirelead-3.jpg';
 import img6 from '../../assets/images/goodtobuy-2.jpg';
-import img7 from '../../assets/images/GD-gllrybanner1.jpg';
-import img8 from '../../assets/images/GD-gllryposter2.png';
-import img9 from '../../assets/images/GD-gllryposter3.jpg';
-import img10 from '../../assets/images/GD-gllrybanner2.jpg';
-import img11 from '../../assets/images/Vtalent-1.jpg';
-import img12 from '../../assets/images/Aquirelead-1.webp';
-import img13 from '../../assets/images/GD-gllrybanner3.jpg';
-import img14 from '../../assets/images/Aquirelead-2.jpg';
+import img7 from '../../assets/images/gd-gllrybanner1.jpg';
+import img8 from '../../assets/images/gd-gllryposter2.png';
+import img9 from '../../assets/images/gd-gllryposter3.jpg';
+import img10 from '../../assets/images/gd-gllrybanner2.jpg';
+import img11 from '../../assets/images/vtalent-1.jpg';
+import img12 from '../../assets/images/aquirelead-1.webp';
+import img13 from '../../assets/images/gd-gllrybanner3.jpg';
+import img14 from '../../assets/images/aquirelead-2.jpg';
 import img15 from '../../assets/images/50fifty-2.jpg';
-import img16 from '../../assets/images/GD-poster17.png';
-import img17 from '../../assets/images/GD-vasaviposter1.png';
-import img18 from '../../assets/images/GD-gllrybanner4.jpg';
-import img19 from '../../assets/images/Aquirelead-4.jpg';
+import img16 from '../../assets/images/gd-poster17.png';
+import img17 from '../../assets/images/gd-vasaviposter1.png';
+import img18 from '../../assets/images/gd-gllrybanner4.jpg';
+import img19 from '../../assets/images/aquirelead-4.jpg';
 import img20 from '../../assets/images/goodtobuy-4.jpg';
 import img21 from '../../assets/images/subhasthira-1.png';
-import img22 from '../../assets/images/GTB Hiring.png';
-import img23 from '../../assets/images/GD-gllrybanner5.jpg';
-import img24 from '../../assets/images/GD-poster10.png';
-import img25 from '../../assets/images/GD-poster11.jpg';
-import img26 from '../../assets/images/GD-poster12.png';
-import img27 from '../../assets/images/GD-poster13.jpg';
-import img28 from '../../assets/images/GD-salesforcebanner.png';
-import img29 from '../../assets/images/GD-poster14.png';
-import img30 from '../../assets/images/GD-poster15.png';
-import img31 from '../../assets/images/GD-poster16.jpg';
-import img32 from '../../assets/images/Aquirelead-5.jpg';
+import img22 from '../../assets/images/gtb hiring.png';
+import img23 from '../../assets/images/gd-gllrybanner5.jpg';
+import img24 from '../../assets/images/gd-poster10.png';
+import img25 from '../../assets/images/gd-poster11.jpg';
+import img26 from '../../assets/images/gd-poster12.png';
+import img27 from '../../assets/images/gd-poster13.jpg';
+import img28 from '../../assets/images/gd-salesforcebanner.png';
+import img29 from '../../assets/images/gd-poster14.png';
+import img30 from '../../assets/images/gd-poster15.png';
+import img31 from '../../assets/images/gd-poster16.jpg';
+import img32 from '../../assets/images/aquirelead-5.jpg';
 import img33 from '../../assets/images/goodtobuy-1.jpg';
 import img34 from '../../assets/gd-portfolio/poster1.png';
 import img35 from '../../assets/gd-portfolio/poster2.jpg';
@@ -95,7 +95,7 @@ const GraphicGallery = () => {
         />
         <img src={img10} className="banners" alt="gd-9" />
         <img src={img11} className="poster" alt="vtalent" />
-        <img src={img12} className="poster" alt="Aquirelead" />
+        <img src={img12} className="poster" alt="aquirelead" />
         <img src={img13} className="banners" alt="gd-10" />
         <img src={img14} className="logo" alt="gd-11" />
         <img src={img15} className="poster" alt="gd-12" />

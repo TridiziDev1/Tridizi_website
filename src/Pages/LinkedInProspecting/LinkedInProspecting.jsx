@@ -15,7 +15,7 @@ import creation from "../../assets/images/creation.png";
 import sv1 from "../../assets/images/serviceicon-1.png";
 import sv2 from "../../assets/images/serviceicon-2.png";
 import sv3 from "../../assets/images/serviceicon-3.png";
-import tick from "../../assets/images/Tick.png";
+import tick from "../../assets/images/tick.png";
 import servimg from "../../assets/images/servimg.jpeg";
 import Footer from "../../Components/Footer/Footer";
 import ClientImages from "../../Components/ClientsImages/ClientImages";

@@ -16,9 +16,9 @@ import goodtobuy1 from "../../assets/images/goodtobuy-1.jpg";
 import vtalent2 from "../../assets/images/vtalent-2.jpg";
 import vtalent1 from "../../assets/images/Vtalent-1.jpg";
 import fiftyfifty1 from "../../assets/images/50fifty-1.jpg";
-import hiring from "../../assets/images/GTB Hiring.png";
+import hiring from "../../assets/images/gtb hiring.png";
 
-import tick from "../../assets/images/Tick.png";
+import tick from "../../assets/images/tick.png";
 import servimg from "../../assets/images/servimg.jpeg";
 import fiftyfifty2 from "../../assets/images/50fifty-2.jpg";
 import goodtobuy2 from "../../assets/images/goodtobuy-2.jpg";
