@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react'
 import marquee1 from "../../assets/company-logos/cliqbird logo.png"
 import marquee2 from "../../assets/company-logos/customerization_logo.png"
 import marquee3 from "../../assets/company-logos/dresma logo.webp"
-import marquee4 from "../../assets/company-logos/entersoftLogo.png"
+import marquee4 from "../../assets/company-logos/entersoftlogo.png"
 import marquee5 from "../../assets/company-logos/gcg.png"
 import marquee6 from "../../assets/company-logos/info-professor.png"
 import marquee7 from "../../assets/company-logos/logo onelenz.png"
