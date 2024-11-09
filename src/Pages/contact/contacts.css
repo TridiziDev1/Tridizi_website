@@ -521,7 +521,7 @@
     }
   
     .grey {
-      margin-left: 50%;
+      margin-left: 40%;
     }
   
     .orng {
@@ -725,7 +725,7 @@
   
   .work {
     margin-top: 100px;
-    background-image: url(../../assets/images/Vector.png);
+    background-image: url(../../assets/images/vector.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

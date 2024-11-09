@@ -275,7 +275,7 @@
   .choose-row {
     flex-direction: column;
     align-items: center;
-  }
+  }   
   .choose-left {
     /* border: 1px solid red; */
   }
@@ -331,7 +331,9 @@
     display: flex;
     justify-content: center;
   }
-
+.img_tag img{
+  width: 35px !important;
+}
   .add_details {
     width: fit-content;
     height: 100%;
@@ -469,7 +471,7 @@
      position: absolute;
     font-size: 25px;
     top: 300px;
-    left: 200px;
+    left: 220px;
     z-index: -1;
     color: #f5900d;
     transform: rotate(90deg);

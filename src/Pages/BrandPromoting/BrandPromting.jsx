@@ -225,57 +225,58 @@ const BrandPromting = () => {
       </section>
 
       <section className="brandDetails_minScreen">
-        <div className="flexItem_1">
-          <p>
+        <div className=" para_img">
+          <p className="para_img_p">
             We start by gaining a deep understanding of your business
             objectives, target audience, and unique selling propositions. By
             aligning our strategies with your goals.
           </p>
-          <div className="img_tag012">
+          <div className=" para_img_img">
             <img src={serviceicon} alt="" />
-            <p className="Img_alt_details">Requirements</p>
+            <p className=" para_img_title">Requirements</p>
           </div>
         </div>
-        <div className="flexItem_2">
-          <p>
+
+        <div className="para_img" style={{ flexDirection: "row-reverse" }}>
+          <p className="para_img_p">
             Never fails in Branding execution, On-time post-delivery, working on
             Engagement, Sharing to the respective platforms, etc.
           </p>
-          <div className="img_tag012">
+          <div className="para_img_img">
             <img src={execution} alt="" />
-            <p className="Img_alt_details">Execution</p>
+            <p className="para_img_title">Execution</p>
           </div>
         </div>
-        <div className="flexItem_3">
-          <p>
+        <div className="para_img">
+          <p className="para_img_p">
             We start by gaining a deep understanding of your business
             objectives, target audience, and unique selling propositions. By
             aligning our strategies with your goals.
           </p>
-          <div className="img_tag012">
+          <div className="para_img_img">
             <img src={serviceicon6} alt="" />
-            <p className="Img_alt_details">R & D</p>
+            <p className="para_img_title">R & D</p>
           </div>
         </div>
-        <div className="flexItem_4">
-          <p>
+        <div className="para_img" style={{ flexDirection: "row-reverse" }}>
+          <p className="para_img_p">
             We start by gaining a deep understanding of your business
             objectives, target audience, and unique selling propositions. By
             aligning our strategies with your goals.
           </p>
-          <div className="img_tag012">
+          <div className="para_img_img">
             <img src={approval} alt="" />
-            <p className="Img_alt_details">Approval</p>
+            <p className="para_img_title">Approval</p>
           </div>
         </div>
-        <div className="flexItem_5">
-          <p>
+        <div className="para_img">
+          <p className="para_img_p">
             We prepare the monthly Calendar prior to taking necessary execution
             without fail, which will give more trust in our work only.
           </p>
-          <div className="img_tag012">
+          <div className="para_img_img">
             <img src={creation} alt="" />
-            <p className="Img_alt_details">Creation</p>
+            <p className="para_img_title">Creation</p>
           </div>
         </div>
       </section>
@@ -355,12 +356,9 @@ const BrandPromting = () => {
         </div>
       </div>
 
-     
-
       {/* --------------------------------------------- */}
       <Rating />
 
-     
       {/* -------------------------------------------- */}
       <section className="why_choose_us">
         <div className="choose-row">

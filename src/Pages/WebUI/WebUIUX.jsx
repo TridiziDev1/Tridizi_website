@@ -43,7 +43,7 @@ const WebUIUX = () => {
             <p>
               TriDizi . <span style={{ color: "#F5900D" }}>Designing</span>
             </p>
-            <h1 style={{letterSpacing:'0.5px'}}>Website UI/UX</h1>
+            <h1 style={{ letterSpacing: "0.5px" }}>Website UI/UX</h1>
           </div>
 
           <div className="col-lg-5 col-sm-6 con-form">
@@ -226,81 +226,49 @@ const WebUIUX = () => {
 
       {/*  webui_add_details minScreen*/}
       <section className="webUIUX_minScreen">
-        <div className="flexItem_111">
-          <p className="pTag">
+        <div className="para_img">
+          <p className="para_img_p">
             We start by thoroughly understanding your business goals,
             Requirements, target audience, and market landscape.
           </p>
-          <div
-            className="img_tag"
-            style={{
-              height: "120px",
-              width: "fit-content",
-
-              padding: "0px 25px",
-            }}
-          >
+          <div className="para_img_img">
             <img src={Understanding_Requirement} alt="" />
-            <p className="Img_alt_details">Understanding Requirement</p>
+            <p className="para_img_title">Understanding Requirement</p>
           </div>
         </div>
-        <div className="flexItem_221">
-          <p>
+        <div className="para_img" style={{ flexDirection: "row-reverse" }}>
+          <p className="para_img_p">
             we prioritize researching and refining to ensure optimal user
             experiences. This involves analyzing market trends, user feedback,
             and competitor strategies to refine our design approach.
           </p>
-          <div
-            className="img_tag"
-            style={{
-              height: "120px",
-              width: "fit-content",
-
-              padding: "0px 25px",
-            }}
-          >
+          <div className="para_img_img">
             <img src={researching_and_refining} alt="" />
-            <p className="Img_alt_details">Researching & Refining</p>
+            <p className="para_img_title">Researching & Refining</p>
           </div>
         </div>
-        <div className="flexItem_331">
-          <p>
+        <div className="para_img">
+          <p className="para_img_p">
             Once the design is finalized, we submit it for approval from
             stakeholders. This involves presenting the design concepts,
             prototypes, and rationale behind design decisions. Feedback is
             gathered and incorporated as needed to ensure alignment with project
             goals and user needs.
           </p>
-          <div
-            className="img_tag"
-            style={{
-              height: "120px",
-              width: "fit-content",
-
-              padding: "0px 25px",
-            }}
-          >
+          <div className="para_img_img">
             <img src={Submission_for_approval} alt="" />
-            <p className="Img_alt_details">Submission approval</p>
+            <p className="para_img_title">Submission approval</p>
           </div>
         </div>
-        <div className="flexItem_441">
-          <p>
+        <div className="para_img" style={{ flexDirection: "row-reverse" }}>
+          <p className="para_img_p">
             we leverage insights from research and refine our concepts to create
             compelling designs. This phase involves translating user
             requirements into wireframes, mockups, and prototypes.
           </p>
-          <div
-            className="img_tag"
-            style={{
-              height: "120px",
-              width: "fit-content",
-
-              padding: "0px 30px",
-            }}
-          >
+          <div className="para_img_img">
             <img src={designing} alt="" />
-            <p className="Img_alt_details">designing</p>
+            <p className="para_img_title">designing</p>
           </div>
         </div>
       </section>
@@ -467,12 +435,10 @@ const WebUIUX = () => {
             </div>
           </a>
         </div>
-
-       
       </div>
 
       {/* --------------------------------------------- */}
-            <Rating/>
+      <Rating />
       {/* -------------------------------------------- */}
       <section className="why_choose_us">
         <div className="choose-row">

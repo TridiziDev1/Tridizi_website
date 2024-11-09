@@ -10,11 +10,7 @@ import content from "../../assets/images/contentcreation.png";
 import agreement from "../../assets/images/agreement.png";
 import correct from "../../assets/images/correct.png";
 import linkedintestimonial from "../../assets/images/linkedintestimonial.jpg";
-import execution from "../../assets/images/execution.png";
-import creation from "../../assets/images/creation.png";
-import sv1 from "../../assets/images/serviceicon-1.png";
-import sv2 from "../../assets/images/serviceicon-2.png";
-import sv3 from "../../assets/images/serviceicon-3.png";
+import execution from "../../assets/images/execution.png";  
 import tick from "../../assets/images/tick.png";
 import servimg from "../../assets/images/servimg.jpeg";
 import Footer from "../../Components/Footer/Footer";
@@ -204,7 +200,7 @@ const LinkedInProspecting = () => {
           <span className="list-22">---------------------</span>
           <span className="list-33">---------------------</span>
           <span className="list-44">---------------------</span>
-          <span className="list-444">---------------</span>
+          <span className="list-444">-------------</span>
         </div>
       </section>
 

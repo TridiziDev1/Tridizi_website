@@ -11,7 +11,7 @@ import map from "../../assets/images/map.png"
 import contactlogo from "../../assets/images/contactbanner.jpeg"
 import { useNavigate } from "react-router-dom";
 
- function Contact(){
+ function Contact({top}){
   const navigate = useNavigate()
   const handleNavigate=()=>{
     navigate("/careers")
@@ -71,7 +71,7 @@ import { useNavigate } from "react-router-dom";
           <div className="dot" />
           <p className="txt">CAREERS &amp; INTERNSHIPS</p>
           <h1>Want to work <span style={{color: '#F5900D'}}>with us.</span></h1>
-          <button className="btn" onclick="window.location.href='careers.html'" type="button" onClick={handleNavigate}>View Current
+          <button className="btn" onclick="window.location.href='careers.html'" type="button" onClick={ ()=>{handleNavigate() , top()}}>View Current
             Openings</button>
         </div>
       </div>
