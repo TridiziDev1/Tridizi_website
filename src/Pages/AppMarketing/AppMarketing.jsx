@@ -219,61 +219,61 @@ const AppMarketing = () => {
       </section>
 
       <section className="appMarketing_minScreen">
-        <div className="flexItem_11">
-          <p>
+        <div className="para_img">
+          <p className="para_img_p">
             We start by gaining a deep understanding of your business
             objectives, target audience, and unique selling propositions. By
             aligning our strategies with your goals.
           </p>
-          <div className="img_tag012">
+          <div className="para_img_img">
             <img src={businessrequirements} alt="" />
-            <p className="Img_alt_details">Understanding requirements</p>
+            <p className="para_img_title">Understanding requirements</p>
           </div>
         </div>
-        <div className="flexItem_22">
-          <p>
+        <div className="para_img" style={{ flexDirection: "row-reverse" }}>
+          <p className="para_img_p">
             Based on our research and understanding, we develop tailored
             marketing strategies designed to maximize the visibility and reach
             of your app.
           </p>
-          <div className="img_tag012">
+          <div className="para_img_img">
             <img src={statergies} alt="" />
-            <p className="Img_alt_details">Appkying Strategies</p>
+            <p className="para_img_title">Appkying Strategies</p>
           </div>
         </div>
-        <div className="flexItem_33">
-          <p>
+        <div className="para_img">
+          <p className="para_img_p">
             We conduct thorough research to analyze your competitors' strengths,
             weaknesses, and marketing strategies. This helps us identify
             opportunities and devise strategies to outperform the competition,
             ensuring your app stands out in the market.
           </p>
-          <div className="img_tag012">
+          <div className="para_img_img">
             <img src={compiAnalysis} alt="" />
-            <p className="Img_alt_details">Competitive Analysis</p>
+            <p className="para_img_title">Competitive Analysis</p>
           </div>
         </div>
-        <div className="flexItem_44">
-          <p>
+        <div className="para_img" style={{ flexDirection: "row-reverse" }}>
+          <p className="para_img_p">
             Ultimately, our goal is to deliver tangible results that align with
             your business objectives. Whether it's increasing app downloads,
             improving user engagement, or boosting revenue.
           </p>
-          <div className="img_tag012">
+          <div className="para_img_img">
             <img src={achieve} alt="" />
-            <p className="Img_alt_details">Achieving Results</p>
+            <p className="para_img_title">Achieving Results</p>
           </div>
         </div>
-        <div className="flexItem_5">
-          <p>
+        <div className="para_img">
+          <p className="para_img_p">
             Our experienced team executes the marketing campaigns with precision
             and attention to detail. From creating compelling ad creatives to
             targeting the right audience segments, we ensure that every campaign
             is executed flawlessly to achieve optimal results.
           </p>
-          <div className="img_tag012">
+          <div className="para_img_img">
             <img src={campaigns} alt="" />
-            <p className="Img_alt_details">Executing Campaigns</p>
+            <p className="para_img_title">Executing Campaigns</p>
           </div>
         </div>
       </section>

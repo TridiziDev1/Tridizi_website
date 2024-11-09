@@ -40,7 +40,7 @@ const Webdesign = () => {
             <p>
               TriDizi . <span style={{ color: "#F5900D" }}>Developing</span>
             </p>
-            <h1 className="letter_spacing" >Website Development</h1>
+            <h1 className="letter_spacing">Website Development</h1>
           </div>
 
           <div className="col-lg-5 col-sm-6 con-form">
@@ -226,57 +226,57 @@ const Webdesign = () => {
       {/* appmarketing_add_details minScreen */}
 
       <section className="webDesign_minScreen">
-        <div className="flexItem_1">
-          <p>
+        <div className="para_img">
+          <p className="para_img_p">
             Every business should need a website to be live. We understand the
             requirements of the niche or industry based on it we can give the
             best.
           </p>
-          <div className="img_tag012">
+          <div className="para_img_img">
             <img src={serviceicon} alt="" />
-            <p className="Img_alt_details">Requirements</p>
+            <p className="para_img_title">Requirements</p>
           </div>
         </div>
-        <div className="flexItem_2">
-          <p>
+        <div className="para_img" style={{ flexDirection: "row-reverse" }}>
+          <p className="para_img_p">
             Never fails in Branding execution, On-time post-delivery, working on
             Engagement, Sharing to the respective platforms, etc.
           </p>
-          <div className="img_tag012">
+          <div className="para_img_img">
             <img src={hosting} alt="" style={{ margin: "0 10px" }} />
-            <p className="Img_alt_details">Hosting</p>
+            <p className="para_img_title">Hosting</p>
           </div>
         </div>
-        <div className="flexItem_3">
-          <p>
+        <div className="para_img">
+          <p className="para_img_p">
             We start by gaining a deep understanding of your business
             objectives, target audience, and unique selling propositions. By
             aligning our strategies with your goals.
           </p>
-          <div className="img_tag012">
+          <div className="para_img_img">
             <img src={ui} alt="" />
-            <p className="Img_alt_details">UI</p>
+            <p className="para_img_title">UI</p>
           </div>
         </div>
-        <div className="flexItem_4">
-          <p>
+        <div className="para_img" style={{ flexDirection: "row-reverse" }}>
+          <p className="para_img_p">
             We start by gaining a deep understanding of your business
             objectives, target audience, and unique selling propositions. By
             aligning our strategies with your goals.
           </p>
-          <div className="img_tag012">
+          <div className="para_img_img">
             <img src={testing} alt="" />
-            <p className="Img_alt_details">testing</p>
+            <p className="para_img_title">testing</p>
           </div>
         </div>
-        <div className="flexItem_5">
-          <p>
+        <div className="para_img">
+          <p className="para_img_p">
             We prepare the monthly Calendar prior to taking necessary execution
             without fail, which will give more trust in our work only.
           </p>
-          <div className="img_tag012">
+          <div className="para_img_img">
             <img src={developmenting} alt="" />
-            <p className="Img_alt_details">developmenting</p>
+            <p className="para_img_title">developmenting</p>
           </div>
         </div>
       </section>
@@ -303,7 +303,7 @@ const Webdesign = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <div className="col-lg-12 col-md-6 col-sm-12 card port  ">
+              <div className="col-lg-12 col-md-6 col-sm-12 card port  bg-transparent ">
                 <img className="image" src={goodtobuy} alt="goodtobuy" />
                 <div className="middle">
                   <img src={link} alt="linkingicon" className="linkicon" />
@@ -409,13 +409,11 @@ const Webdesign = () => {
             </a>
           </div>
         </div>
-
-        
       </div>
 
       {/* --------------------------------------------- */}
 
-      <Rating/>
+      <Rating />
       {/* -------------------------------------------- */}
       <section className="why_choose_us">
         <div className="choose-row">

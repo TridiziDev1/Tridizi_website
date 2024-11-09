@@ -21,7 +21,7 @@ html {
   overflow-x: hidden;
   cursor: default;
 }
-button {
+ p button {
   margin-top: 30px !important;
   padding: 22px 50px;
   background: #f5900d;
@@ -29,7 +29,7 @@ button {
   color: white;
   transition: all 0.4s ease-in-out 0s;
 }
-button:hover {
+p button:hover {
   background-color: #fff;
   color: #f5900d;
 }
@@ -587,6 +587,16 @@ marquee {
     height: 80vh;
     margin: 30px 0px;
   }
+  .banner1 p{
+    display: flex;
+    justify-content: start;
+  }
+  p button{
+  
+  padding: 15px 30px;
+  font-size: 16px;
+
+  }
   .play-btn1 img {
     width: 100px;
     height: 80vh;
@@ -719,7 +729,7 @@ marquee {
 }
 
 .slider {
-  background-image: url(../../assets/images/Vector.png);
+  background-image: url(../../assets/images/vector.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

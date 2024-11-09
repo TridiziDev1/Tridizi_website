@@ -33,7 +33,7 @@ const GraphicDesign = () => {
             <p>
               TriDizi . <span style={{ color: "#F5900D" }}>Designing</span>
             </p>
-            <h1 style={{letterSpacing:'0.5px'}}>Graphic Designing</h1>
+            <h1 style={{ letterSpacing: "0.5px" }}>Graphic Designing</h1>
           </div>
 
           <div className="col-lg-5 col-sm-6 con-form">
@@ -248,77 +248,77 @@ const GraphicDesign = () => {
 
       {/*graphic_design_add_details minScreen  */}
       <section className="graphicDesign_minScreen">
-        <div className="flexItem_1">
-          <p className="graphic_para">
+        <div className="para_img">
+          <p className="para_img_p">
             In this initial stage, we intimately explore your brand, target
             audience, and goals. Through detailed discussions and creative
             brainstorming, we uncover the unique elements shaping your design.
           </p>
-          <div className="img_tag012">
+          <div className="para_img_img">
             <img src={Discovery} alt="" />
-            <p className="Img_alt_details">Discovery</p>
+            <p className="para_img_title">Discovery</p>
           </div>
         </div>
-        <div className="flexItem_2">
-          <p className="graphic_para">
+        <div className="para_img" style={{ flexDirection: "row-reverse" }}>
+          <p className="para_img_p">
             Using insights from discovery, our expert designers translate your
             ideas into visual concepts. Creativity takes centre stage as we
             explore design directions, presenting a range of initial concepts
             for your feedback.
           </p>
-          <div className="img_tag012">
+          <div className="para_img_img">
             <img src={conceptual} alt="" style={{ margin: "0 10px" }} />
-            <p className="Img_alt_details">conceptualization</p>
+            <p className="para_img_title">conceptualization</p>
           </div>
         </div>
-        <div className="flexItem_3">
-          <p className="graphic_para">
+        <div className="para_img">
+          <p className="para_img_p">
             Upon final approval, we deliver the design assets in your required
             formats. Whether for print, digital use, or both, you receive a
             comprehensive package empowering you to unleash your new design
             across various platforms.
           </p>
-          <div className="img_tag012">
+          <div className="para_img_img">
             <img src={delivery} alt="" />
-            <p className="Img_alt_details">Delivery</p>
+            <p className="para_img_title">Delivery</p>
           </div>
         </div>
-        <div className="flexItem_4">
-          <p className="graphic_para">
+        <div className="para_img" style={{ flexDirection: "row-reverse" }}>
+          <p className="para_img_p">
             Your feedback is crucial. We refine and enhance the chosen design
             concept, ensuring it aligns seamlessly with your vision. Meticulous
             attention to detail is our commitment, making adjustments until
             every element is just right.
           </p>
-          <div className="img_tag">
+          <div className="para_img_img">
             <img src={refinement} alt="" />
-            <p className="Img_alt_details">Refinement</p>
+            <p className="para_img_title">Refinement</p>
           </div>
         </div>
-        <div className="flexItem_5">
-          <p className="graphic_para">
+        <div className="para_img">
+          <p className="para_img_p">
             Your satisfaction is our top priority. We present the completed
             design for your detailed review and approval. Prompt adjustments are
             made if needed, ensuring the design aligns perfectly with your
             expectations.
           </p>
-          <div className="img_tag012">
+          <div className="para_img_img">
             <img src={hosting} alt="" />
-            <p className="Img_alt_details">
+            <p className="para_img_title">
               Design <br /> Development
             </p>
           </div>
         </div>
-        <div className="flexItem_6">
-          <p className="graphic_para">
+        <div className="para_img" style={{ flexDirection: "row-reverse" }}>
+          <p className="para_img_p">
             Once the refined concept is approved, we enter the design
             development phase. Skilled designers use industry-leading software
             to craft a polished and professional final product, bringing your
             vision to life.
           </p>
-          <div className="img_tag012">
+          <div className="para_img_img">
             <img src={reviewandapproval} alt="" />
-            <p className="Img_alt_details">review and approval</p>
+            <p className="para_img_title">review and approval</p>
           </div>
         </div>
       </section>
@@ -329,7 +329,7 @@ const GraphicDesign = () => {
 
       {/* --------------------------------------------- */}
 
-     <Rating />
+      <Rating />
       {/* -------------------------------------------- */}
       <section className="why_choose_us">
         <div className="choose-row">
